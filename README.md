@@ -2,8 +2,11 @@
 
 This repository contains the code accompanying the paper:  
 **Shape-Space Graph: Fast and Collision-Free Path Planning for Soft Robots**  
+
 by Carina Veil, Moritz Flaschel, Ellen Kuhl. 
+
 Contact: cveil@stanford.edu
+
 If you use this code in your research, please cite us: 
 ---
 
