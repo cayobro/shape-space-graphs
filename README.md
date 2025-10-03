@@ -19,6 +19,7 @@ Signed distance functions prune nodes and edges colliding with obstacles,
 while multi-objective edge costs combining geometric distance and actuation effort enable 
 energy-efficient planning with collision avoidance. Shortest paths are efficiently found with Dijkstra’s algorithm using the precomputed graph.
 
+![Alt text for the image](Abstract.png)
 ---
 
 ## Features
