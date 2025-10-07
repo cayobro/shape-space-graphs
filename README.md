@@ -7,7 +7,7 @@ by Carina Veil, Moritz Flaschel, Ellen Kuhl.
 
 Contact: cveil@stanford.edu
 
-If you use this code in your research, please cite us: 
+If you use this code in your research, please cite us: https://arxiv.org/abs/2510.03547
 
 ---
 
