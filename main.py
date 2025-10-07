@@ -23,8 +23,8 @@ from src.sdf_utils import *
 from src.plotting_utils import *
 
 '''
-Note: You can load your own data here.
-We need actuations of shape (N, n_actuators) and configurations of shape (N, n_zdiscretization, 3).
+Note: We provide a small toy dataset, but you can load your own data here.
+We need actuations of dimension (N, n_actuators) and configurations of dimension (N, n_zdiscretization, 3).
 '''
 # Load toy data:
 r, R, gamma, N, P = get_data()
@@ -44,11 +44,11 @@ sweep_ok = make_edge_sweep_checker(r, scene_sdf)
 params = {
     "r": r,
     "gamma": gamma,
-    "alpha": 1.0,   # geometric
-    "beta":  1.0,   # activation magnitude
-    "delta": 1.0,   # activation smoothness
-    'sdf_fn': scene_sdf,  # SDF function (or None)
-    "node_clearance": node_clearance  # SDF clearance (or None)
+    "alpha": 1.0,   # weight for geometric distance
+    "beta":  1.0,   # weight for activation magnitude
+    "delta": 1.0,   # weight for activation smoothness
+    'sdf_fn': scene_sdf,  # SDF function (or None, if there are no obstacles)
+    "node_clearance": node_clearance  # SDF clearance (or None, if there are no obstacles)
 }
 w = make_edge_weight(params)
 
