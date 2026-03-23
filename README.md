@@ -7,8 +7,8 @@ by Carina Veil, Moritz Flaschel, Ellen Kuhl.
 
 Contact: cveil@stanford.edu
 
-If you use this code in your research, please cite us: https://arxiv.org/abs/2510.03547  
-The entire dataset for the shape library with 1,000,000 samples can be downloaded here: https://doi.org/10.5281/zenodo.18802371
+If you use this code in your research, please cite us: [IEEE Open Access](https://ieeexplore.ieee.org/abstract/document/11433777)  
+The entire dataset for the shape library with 1,000,000 samples can be downloaded here: [Zenodo](https://doi.org/10.5281/zenodo.18802371)
 
 ---
 
